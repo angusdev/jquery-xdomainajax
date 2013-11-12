@@ -5,6 +5,11 @@
  * This modified version add support (and only support) $.Deferred()
  * Also support "Simple PHP Proxy" (http://benalman.com/projects/php-simple-proxy/) as an alternative
  *
+ * Version: 1.0
+ * Last update: 11-Nov-2013
+ * Author: @angusdev
+ * Website: https://github.com/angusdev/jquery-xdomainajax
+ *
  * --------------------------------------------------------------------------------------
  *
  * jQuery.ajax mid - CROSS DOMAIN AJAX
