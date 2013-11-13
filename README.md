@@ -38,8 +38,8 @@ $(document).ready(function() {
 </script>
 ```
 > **xdomainajax_proxy_url** is the url of [Simple PHP Proxy](http://benalman.com/projects/php-simple-proxy/).
-Note the proxy url should be in the same server (or use Access-Control-Allow-Headers), otherwise you are making
-another cross domain AJAX request.
+Note the proxy url should be in the same server (or use [Access-Control-Allow-Headers](https://developer.mozilla.org/en/docs/HTTP/Access_control_CORS)),
+otherwise you are making another cross domain AJAX request.
 
 > Simple PHP Proxy will pass your browser's user agent to the target website, set **xdomainajax_proxy_useragent** 
 if you want to use a specified user agent (e.g. you want a desktop site in mobile device, or vice-versa).
